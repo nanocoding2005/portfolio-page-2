@@ -1,0 +1,106 @@
+.gradient-background {
+    background: linear-gradient(300deg, white, rgb(16, 199, 255));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+#header{
+    background-color: #1AA5DB;
+}
+
+.left{
+    background-color: #1A68DB;
+    border-radius: 5% 0% 0% 5%;
+}
+
+.right{
+    background-color: #1A68DB;
+    border-radius: 0% 5% 5% 0%;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+.profile-picture{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.header-text > h1{
+    font-family: "Libre Caslon Text", serif;
+    font-size: 80px;
+}
+
+p,li{
+    font-family: "Nunito", sans-serif;
+}
+
+.image-text {
+    font-style: italic;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 15px;
+}
+
+#about-me h3{
+    font-family: "Nunito", sans-serif;
+}
+
+.container-header{
+    height: 470px;
+}
+
+.skills-column p,li {
+    font-style: italic;
+    color: rgba(207, 207, 207, 0.617);
+}
+
+.skills-column h2{
+    font-family: "Libre Caslon Text", serif;
+}
+
+.about-me-container{
+    height: 400px;
+}
+
+.feature{
+    height: 240px;
+}
+
+.right h2{
+    font-family: "Domine", serif;
+    font-size: 60px;
+}
+
+.right li{
+    list-style: none;
+}
+@media (max-width:992px) {
+    .container-header{
+        height: 630px;
+    }.about-me-container{
+        height: 750px;
+    }
+    .right{
+        border-radius: 0% 0% 5% 5%;
+    }
+    .left{
+        border-radius: 5% 5% 0% 0%;
+    }
+}
